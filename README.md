@@ -1,7 +1,7 @@
 # Family Budget App
 
 A cross-platform app for managing your family’s finances, tracking expenses, setting savings goals, and handling utility bills.  
-Built with Flutter for iOS, Android, and Web, with offline support and cloud synchronization via Firebase.
+Built with Flutter for iOS, Android, and Web, with cloud synchronization via Firebase.
 
 ## Features
 - Categorized expenses and recurring payments
