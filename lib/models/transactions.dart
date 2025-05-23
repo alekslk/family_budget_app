@@ -1,3 +1,6 @@
+/// Represents a financial transaction.
+///
+/// Contains information about the transaction amount, category, date, and an optional note.
 class Transaction {
   final String id;
   final double amount;
