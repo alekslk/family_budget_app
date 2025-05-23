@@ -1,16 +1,18 @@
-# family_budget_app
+# Family Budget App
 
-Family Budget App
+A cross-platform app for managing your family’s finances, tracking expenses, setting savings goals, and handling utility bills.  
+Built with Flutter for iOS, Android, and Web, with offline support and cloud synchronization via Firebase.
 
-## Getting Started
+## Features
+- Categorized expenses and recurring payments
+- Utility bill tracking (water, electricity, etc.)
+- Savings goals and reminders
+- Works offline with local storage (SQLite)
+- Cloud sync and user authentication (Firebase)
+- Ready for App Store and web deployment
 
-This project is a starting point for a Flutter application.
+## License
+All Rights Reserved.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This code is the property of NAFlow Team.  
+Unauthorized copying, distribution, or use is prohibited without explicit permission.
