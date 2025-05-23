@@ -18,18 +18,22 @@ class Transaction {
       'id': id,
       'amount': amount,
       'categoryId': categoryId,
-      'date': date,
+      'date': date.toIso8601String(),
       'note': note,
     };
   }
 
   factory Transaction.fromMap(Map<String, dynamic> map) {
     return Transaction(
-      id: map['id'],
-      amount: map['amount'],
-      categoryId: map['categoryId'],
-      date: map['date'],
-      note: map['note'],
+      id: map['id'] as String,
+      amount: map['amount'] is int
+          ? (map['amount'] as int).toDouble()
+          : map['amount'] as double,
+      categoryId: map['categoryId'] as String,
+      date: map['date'] is DateTime
+          ? map['date'] as DateTime
+          : DateTime.parse(map['date']),
+      note: map['note'] as String?,
     );
   }
 }
