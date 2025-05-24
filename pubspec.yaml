@@ -30,12 +30,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  # Official Dart package for annotating models for code generation (JSON serialization)
+  json_annotation: ^4.9.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  # Dev tool for code generation (runs the generator)
+  build_runner: ^2.4.15
+  # The package that generates the serialization code for annotated models
+  json_serializable: ^6.9.5
   flutter_test:
     sdk: flutter
 
