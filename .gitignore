@@ -7,6 +7,7 @@
 *.swp
 .buildlog/
 .history
+.metadata
 
 # IntelliJ related
 .idea/
