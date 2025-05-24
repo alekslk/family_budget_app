@@ -2,6 +2,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'budget.g.dart';
 
+/// Represents a user's monthly budget (main or sub-budget).
 @JsonSerializable()
 class Budget {
   final String id;
